@@ -20,15 +20,15 @@ I like enjoy running, video games, music, programming, and sports. In my free ti
 9. **10**: Once you make it, you fake. 10 is to good to be true
 10. **4**: Mid number, outside of the goated trio
 ## Things I've Done
-- [] Broken a bone
+- [ ] Broken a bone
 - [X] Won a state championship
 - [X] Owned a dog
-- [] Christopher
+- [ ] Christopher
 - [X] Gotten surgery
-- [] Died
-- [] Gotten a ticket
+- [ ] Died
+- [ ] Gotten a ticket
 - [X] Been to Turks and Caicos
-- [] Gotten a job
+- [ ] Gotten a job
 - [X] Loved Jesus
 ## Goated Links
 - [Youtube](https://www.youtube.com/): Youtube has been an important part of my life for a long time. I have watched many people, many videos, and grown up on the platform. It is a good learning resource, but also a good entertainment outlet.

@@ -48,24 +48,6 @@ header {
     margin: 0;
     padding: 0;
 }
-.navbar li {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-radius: 50%;
-    background-color: #EBC35C;
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
-}
-a {
-    display: block;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 .name {
     display: inline-block;
     color: #EBC35C;
@@ -77,6 +59,65 @@ a {
     border-radius: 120%;
     width: 400px;
 }
+.responsive-wrapper {
+    width: 90%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Sticky header */
+.header-outer {
+   /* Make it stick */
+    height: var(--header-outer-height);
+    position: sticky;
+    top: calc(var(--header-height-difference) * -1);
+   /* Multiply by -1 to get a negative value */
+    display: flex;
+    align-items: center;
+   /* Other */
+    background-color: #CD6F89;
+    box-shadow: 0 2px 1px 0 #333533;
+}
+.header-inner {
+   /* Make it stick */
+    height: var(--header-inner-height);
+    position: sticky;
+    top: 0;
+   /* Other */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+.header-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-navigation a, .header-navigation button {
+    text-decoration: none; 
+    -moz-text-decoration-line: none;
+    font-size: 1.725rem;
+    color: #EBC35C;
+    margin-left: 1.75rem;
+    position: relative;
+    font-weight: 500;
+}
+.header-navigation a:hover::after, .header-navigation button:hover::after {
+    transform: scalex(1);
+}
+.header-navigation a::after, .header-navigation button::after {
+    transition: 0.25s ease;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: currentcolor;
+    transform: scalex(0);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
 
 
 

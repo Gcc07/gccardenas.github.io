@@ -1,0 +1,108 @@
+/* Color Palette:
+VERY Light: #EBC35C;
+Light Shades: #E1A445;
+Light Accent: #669182;
+Main Brand Color: #CD6F89;
+Dark Accent: #555182;
+Dark Shades: #182238;
+*/
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: #182238;
+}
+h1 {
+    font-weight: bolder;
+    color: #EBC35C;
+}
+h2 {
+    color: #EBC35C;
+}
+p {
+    font-weight: normal;
+    color: #E1A445;
+}
+ol {
+    color: #EBC35C;
+}
+ul {
+    font-weight: bolder;
+    color: #EBC35C;
+}
+a {
+    color: #669182;
+}
+:visited {
+    color: #669182;
+}
+header {
+    display: flex;
+    align-items:flex-start;
+}
+.navbar {
+    /* float: left; */
+    list-style-type: none; /* This removes bullets */
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #EBC35C;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+a {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.name {
+    display: inline-block;
+    color: #EBC35C;
+    font-size: 70px;
+    margin: 10px;;
+}
+.image {
+    display: inline-block;
+    border-radius: 120%;
+    width: 400px;
+}
+
+
+
+/*
+body {
+background-color: #304040;
+}
+h1 {
+color: #e5f7dc;
+}
+h2 {
+color: #b6c0b1;
+}
+p {
+color: #73a194;
+}
+ol {
+color: #73a194;
+}
+ul {
+color: #73a194;
+}
+a {
+color: #ff6c78;
+}
+:visited {
+color: #e75c96;
+}
+*/

@@ -6,12 +6,20 @@ Main Brand Color: #CD6F89;
 Dark Accent: #555182;
 Dark Shades: #182238;
 */
+/* The below code creates variables that are referenced later.*/
+:root {
+    --header-outer-height: 110px;
+    --header-inner-height: 70px;
+    --header-height-difference: calc(var(--header-outer-height) - var(--header-inner-height));
+}
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
     background-color: #182238;
+    overflow: visible;
+    margin: 0px;
 }
 h1 {
     font-weight: bolder;
@@ -39,14 +47,8 @@ a {
 }
 header {
     display: flex;
-    align-items:flex-start;
-}
-.navbar {
-    /* float: left; */
-    list-style-type: none; /* This removes bullets */
-    /* background-color: black; */
-    margin: 0;
-    padding: 0;
+    align-items:center ;
+    justify-content: center;
 }
 .name {
     display: inline-block;
@@ -64,6 +66,7 @@ header {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 /* Sticky header */
 .header-outer {
@@ -75,8 +78,8 @@ header {
     display: flex;
     align-items: center;
    /* Other */
-    background-color: #CD6F89;
-    box-shadow: 0 2px 1px 0 #333533;
+   background-color: #182238;
+   box-shadow: 0 2px 1px 0 #EBC35C;
 }
 .header-inner {
    /* Make it stick */
@@ -106,18 +109,31 @@ header {
     transform: scalex(1);
 }
 .header-navigation a::after, .header-navigation button::after {
-    transition: 0.25s ease;
+    transition: 1s ease;
     content: "";
     display: block;
     width: 100%;
     height: 2px;
-    background-color: currentcolor;
+    background-color: currentColor;
     transform: scalex(0);
     position: absolute;
     bottom: -2px;
     left: 0;
 }
-
+.column{
+    float: left;
+    width: 33%;
+}
+.card{
+    border-style: double;
+    border: 3px #EBC35C;
+    background-color: #182238;
+    border-radius: 20spx;
+    margin: 2px;
+}
+.small-info{ 
+    align-items: center!important; 
+}
 
 
 

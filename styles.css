@@ -120,7 +120,7 @@ header {
     bottom: -2px;
     left: 0;
 }
-.column{
+/* .column{
     float: left;
     width: 33%;
 }
@@ -131,8 +131,39 @@ header {
     border-radius: 20spx;
     margin: 2px;
 }
-.small-info{ 
-    align-items: center!important; 
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+} */
+
+.small-info{
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: stretch;
+    background-color: #283757;
+    padding: 10px;
+    box-shadow: 0 2px 1px 0 #E1A445;
+}
+
+.container section {
+    width: 33%;
+}
+
+.box{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(40,55,87,1) 99%, rgba(235,195,92,1) 100%);
+    background-color: #182238;
+    color: #555182;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#ContactForm, #ContactInfo{
+    justify-items: center;
 }
 
 

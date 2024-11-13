@@ -162,8 +162,32 @@ header {
     margin: 10px;
     border-radius: 10px;
 }
-#ContactForm, #ContactInfo{
+.box2{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(40,55,87,1) 99%, rgb(212, 140, 31) 100%);
+    background-color: #182238;
+    color: #555182;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#ContactForm, #ContactInfo, #Interests{
     justify-items: center;
+}
+button {
+    background-color: #EBC35C;
+    color: #283757;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #28375700;
+    color: #EBC35C;
+    transform: scale(1.1); /* Expands button to 110% of its original size */
 }
 
 
